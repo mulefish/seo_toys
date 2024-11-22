@@ -25,5 +25,5 @@ def print_directory_tree(base_dir, indent=0):
         print("    " * indent + "[Permission Denied]")
 
 # Specify the base directory to start the traversal
-base_directory = "."  # Current directory
+base_directory = "./seo-this/"  # Current directory
 print_directory_tree(base_directory)
